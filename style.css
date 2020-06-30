@@ -1,0 +1,623 @@
+        body{
+            margin: 0;
+            padding: 0;
+            font-family:"Roboto";
+        }
+        .top-header{
+            background-color:aliceblue;
+        }
+        .top-header ul li a {
+            border-right: 1px solid black;
+            color:#333;
+            margin: 5px 5px 3px 5px;
+            padding:px 2px 2px 5px;
+        }
+        #main-menu{
+            background-color: aliceblue;
+            box-shadow:  0px .5px 0px;
+        }
+        #main-menu ul li a{
+            color: #333!important;
+            font-size: 18px;
+        }
+        #main-menu ul li a:hover{
+            color: #ef5726!important;
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            color: #fff;
+            text-align: center;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color:#6872d9;
+            border: 1px solid transparent;
+            padding: 0.65rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .form-control1 {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + .75rem + 2px);
+            padding: 1.375rem 4.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ca2b3a;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + .75rem + 2px);
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ca2b3a;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .button-12 {
+            background-color: #6872d9 !important;
+            color: #fff!important;
+            padding: 0px 15px;
+            margin: 0px 20px;
+            font-size: 24px;
+        }
+        .button-12 a{
+             color: #fff !important;
+        }
+        .button-1{
+            background-color: #6872d9 !important; 
+            color: #fff!important;
+            padding: 11px 15px;
+            margin: 1px 10px;
+            font-size: 24px;
+            
+        }
+        .button-1:hover{
+            background-color: #6872d9 !important; 
+            color: #ef5726;
+            padding: 11px 15px;
+            margin: 1px 10px;
+            font-size: 24px;
+            list-style: none;
+            text-decoration: none;
+            
+        }
+
+        .button-2{
+            background-color: #6872d9 !important;  
+        }
+        #Banner{
+            position: relative;
+            background: #c1d6eb;}
+        h1{
+            margin-top: 7%;
+            font-family:"Roboto" ;
+            font-size: 32px;
+            font-weight: 400;
+            margin-left: 4%;
+        }
+        h4{
+            font-family: "roboto";
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 10%;
+        }
+        h2{
+            font-family: "roboto";
+            font-size: 30px;
+            font-weight: 500;
+            text-align: center;
+            padding-top:2% ;
+            padding-bottom: 2%;
+        }
+        h3{
+            text-align: center;
+            margin-top: 10%;
+        }
+        .main-body img{
+        text-align: center;
+        display: block;
+        overflow: hidden;
+        padding-left: 35%;
+        }
+        .Modal-section{
+            background-color:#6872d9;
+            color: #fff;
+        }
+        .product-section h2{
+            color: #6872d9;
+        }
+        .product{
+            padding-top: 5%;
+            box-shadow: 2px 1px 20px 1px;
+        }
+        .img-responsive {
+            display: block;
+            width: 100% \9;
+            max-width: 100%;
+            height: auto;
+            padding-left: 30%;
+            padding-bottom: 8%;
+        }
+        .button-3 {
+            background-color: #6872d9 !important;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 55px;
+            width: 200px;
+            height: 58px;
+            padding-bottom: 47px;
+            padding-top: 2px;
+            font-size: 30px;
+            margin-left: 9%;
+            padding-left: 2%;
+        }
+        .button-33 {
+            background-color: #6872d9 !important;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 55px;
+            width: 180px;
+            height: 58px;
+            padding-bottom: 47px;
+            padding-top: 2px;
+            font-size: 24px;
+            margin-left: 9%;
+            padding-left: 2%;
+        }
+        .buttonS {
+            background-color: #6872d9 !important;
+            color: #fff;
+            text-align: center;
+            /* margin-bottom: 55px; */
+            width: 140px;
+            height: 50px;
+            padding-bottom: 4px;
+            padding-top: 2px;
+            font-size: 20px;
+            margin-left: 9%;
+            padding-left: 2%;
+        }
+        .about-span{
+            font-size: 32px;
+        }
+        .contact-us{
+            background: #f5f6f7;
+            padding: 40px 15px;
+            text-align: center;
+            
+        }
+        .contact-us a{
+            background: #6872d9;
+            border: 1px solid #6872d9;
+            border-radius: 0;
+            font-size: 24px;
+            padding: 1px 24px 3px;
+            margin-left: 15px;
+        }
+
+        #About-me h1 {
+            margin-top: 1%;
+            padding: 4%;
+            padding-left: 16%;
+        } 
+        #About-h1{
+            margin-top: 1%;
+            padding: 4%;  
+        }
+        .contact{
+            margin-right: 10%;
+        }
+
+        .placeH{
+            height: 40px;
+            width: 200px;
+        }
+        .video-section{
+            background-color: ivory;
+        }
+        #Products{
+            margin: 20px 5px;
+        }
+        #Products img{
+            padding-left: 15%;
+            margin-left: 20%;
+        }
+        .contact-section{
+            background-color: #22243f;
+            color: #dddddd;
+            padding: 5% 2%;
+            text-decoration: none;
+        }
+        .contact-section a{
+            color: #fff!important;
+            text-decoration: none;
+        }
+        .contact-section a:hover{
+            color: #ef5726!important;
+            text-decoration: none;
+        }
+        .right-br{
+            border-right: .5px solid #fff;
+        }
+        h6{
+            font-size: 32px;
+            font-weight: 500;
+            text-align: center;
+            color: #fff;
+        }
+        h5{
+            color: #fff;
+        }
+        contact-section a{
+            color:#fff;
+        }
+        .footer{
+            background-color: black;
+            color: #fff;
+        }
+        .footer a{
+            color:#fff;
+        }
+        .press-news{
+            box-shadow: 2px 1px 5px 1px; 
+            padding: 5px 10px;
+        }
+        #Press b{
+            color: coral;
+        }
+        .picture{
+        box-shadow: 1px 1px 5px 1px;
+            margin: 2% 0%;
+        }
+        #leader{
+            padding-top: 5%;
+            background-color: rgb(250, 244, 244);
+            margin-top: 2%;
+        }
+        #leader strong{
+            color: coral;
+        font-size: 30px;
+        padding-top: 2%;
+        }
+        #Beyond-business{
+            margin-top: 1%;
+            padding-top: 1%;
+            background-color: rgb(252, 246, 246);
+        }
+        #Beyond-business h2{
+            padding-top: 2%;
+            margin-top: 3%;
+            padding-bottom: 2%;
+        }
+        .social-work{
+            margin-top: 5%;
+            padding-top:5%;
+            margin-bottom: 5%;
+
+        }
+        #clients{
+            margin-top: 2%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        #clients p {
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        #testimonial{
+            margin-top: 3%;
+            background-color:#fff ;
+        }
+        #testimonial p{
+            text-align: center;
+            margin: 2% 1%;
+            padding-top: 3%;
+            color: #333;
+        }
+        #testimonial span{
+            text-align: center;
+            margin: 2% 0%;
+        }
+        .border{
+            border: 1px solid;
+        }
+        .border img{
+            align-items: center;
+            padding: 2%;
+            padding-left: 35%;
+            margin-bottom: 3%;
+        }
+        .left{
+            color: coral;
+            font-size: 24px;
+            padding-top: 3%;
+        }
+        .right{
+            color: coral;
+            font-size: 24px;
+            padding-top: 3%;
+        }
+        .name{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .place{
+            color: coral;
+        }
+        #Event-list{
+            background-color: rgb(235, 232, 224);
+            padding-bottom: 3%;
+        }
+        #Event-list h2{
+        padding-top: 10%;
+        }
+        .button-11{
+            text-align: center;
+            padding-left: 40%;
+        }
+        #awards h2{
+            margin-top: 3%;
+            text-align: center;
+        }
+        #awards p{
+            margin-top: 3%;
+            text-align: center;
+        }
+        .text{
+            color: #fff;
+        }
+        .text:hover{
+            color: rgb(224, 76, 17);
+        }
+        .text1{
+            color: #333;
+        }
+        .text1:hover{
+            color: rgb(224, 76, 17);
+        }
+        .banner1{
+            background-image: url(images/REVE-Group-Pic.jpg);
+        max-width: 1920px;
+            height: 600px;
+        }
+        .banner1 button{
+            background-color: #6600ff;
+            color:#fff;
+            margin-top: 40%;
+            margin-left: 40%;
+            height: 55px;
+            font-size: 22px;
+            text-transform: none;
+            text-decoration: none;
+            width: 230px;
+            list-style: none;
+        }
+        .text2{
+            color: #fff;
+        }
+        .banner1 button:hover{
+            background-color: #ffff;
+            color:black;
+            margin-top: 40%;
+            margin-left: 40%;
+            height: 55px;
+            width: 230px;
+            font-size: 22px;
+            text-transform: none;
+            text-decoration: none;
+        }
+
+        .btn-lg {
+            background-color: #f2f6f9;
+            border: 1px solid;
+            border-radius: 50%;
+            color: #ef5726;
+            font-size: 35px;
+            line-height: 140%;
+            margin-bottom: 11%;
+            margin-top: 5%;
+            padding-left: 13%;
+        }
+        .para{
+            text-align: center;
+            margin-bottom: 10%;
+        }
+        #careers h2{
+            margin-top: 8%;
+        }
+        .offer{
+            background-color: rgb(219, 235, 235);
+        }
+
+        .btn:hover{
+            color: #ef5726;
+        }
+        .picture span{
+            padding-top: 5%;
+            color: #ef5726;
+            margin:5% 0%;
+        }
+        #Contact-us li{
+        color: #ef5726;
+        list-style: none;
+        padding: 2%;
+        }
+        #contact-us h2{
+            font-size: 42px;
+            font-weight: 600;
+        }
+        .btn11{
+            max-width: 160px;
+        }
+
+
+        
+        @media (min-width: 576px) { 
+        
+        p {
+            margin-top: 0;
+            font-size: 12px;
+            margin-bottom: 1rem;
+        }
+        #main-body h2 {
+            font-family: "roboto";
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 7%;
+            padding-right: 11%;
+            padding-bottom: 2%;
+        }
+        .main-body img {
+            text-align: center;
+            display: block;
+            overflow: hidden;
+            padding-left: 27%;
+        }
+        #product-section h1 {
+            margin-top: 1%;
+            font-family: "Roboto";
+            font-size: 48px;
+            font-weight: 400;
+            margin-left: 36%;
+        }
+        #product-section img{
+            align-items: center;
+        }
+        #product-section p{
+            padding: 1%;
+        }
+        #leader img{
+            padding-left: 10%;
+        }
+        #leader strong {
+            color: coral;
+            font-size: 35px;
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+
+        .social{
+            padding-left: 10%;
+            font-size: 20px;
+        }
+        #leader ul{
+            padding-left: 10%;
+        }
+        #Beyond-business img{
+            padding-left:16%;
+        }
+        .button-11 {
+            text-align: center;
+            padding-left: 30%;
+        }
+        .banner1{
+        background-image: url(images/REVE-Group-Pic.jpg);
+            height: 730px;
+            width: 1920px;
+            display: none;
+        }
+        .button-3 {
+            background-color: #6872d9 !important;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 55px;
+            width: 172px;
+            height: 58px;
+            padding-bottom: 47px;
+            padding-top: 2px;
+            font-size: 32px;
+            margin-left: 10%;
+            padding-left: 5%;
+        }
+
+        @media (max-width: 575px){
+            #leader strong {
+                color: coral;
+                font-size: 30px;
+                padding-top: 2%;
+                padding-left: 10%;
+            }
+            h1 {
+                margin-top: 4%;
+                font-family: "Roboto";
+                font-size: 50px;
+                font-weight: 400;
+                margin-left: 33%;
+            }
+            .product-section h2 {
+                color: #6872d9;
+                padding-right: 20%;
+            }
+            .banner1{
+                background-image: url(images/REVE-Group-Pic.jpg);
+                    height: 730px;
+                    width: 1920px;
+                    display: none;
+                }
+
+        }
+
+        @media (max-width: 767px){
+            .button-12 {
+                background-color: #6872d9 !important;
+                color: #fff!important;
+                padding: 0px 150px;
+                margin: -3px -16px;
+                font-size: 31px;
+            }
+            .banner1{
+                background-image: url(images/REVE-Group-Pic.jpg);
+                    height: 730px;
+                    width: 1920px;
+                    display: none;
+                }
+        }
+
+        @media (min-width: 768px) { 
+            .banner1{
+                background-image: url(images/REVE-Group-Pic.jpg);
+                    height: 730px;
+                    width: 1920px;
+                    display: none;
+                }
+        }
+
+        @media (min-width: 992px) { 
+            .button-12 {
+                background-color: #6872d9 !important;
+                color: #fff!important;
+                padding: 0px 15px;
+                margin: 0px 20px;
+                font-size: 24px;
+            }
+        }
+        @media (min-width: 1200px) { 
+            .button-12 {
+                background-color: #6872d9 !important;
+                color: #fff!important;
+                padding: 0px 15px;
+                margin: 0px 20px;
+                font-size: 24px;
+            }
+        }
